@@ -3,7 +3,7 @@
 	[string] $SlotName = "Staging",
 	[string] $TemplateFile = "ProdAndStage.json",
 	[string] $TemplateParameterFile = "param.json",
-	[string] $RepoUrl = "https://github.com/azure-appservice-samples/ToDoApp.git",
+	[string] $RepoUrl = "https://github.com/v-DavidTang/ToDoApp.git",
 	[string] $Branch = "master"
 )
 

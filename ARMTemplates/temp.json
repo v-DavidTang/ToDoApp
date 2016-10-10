@@ -1,0 +1,30 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "siteName": {
+            "value": "ToDoAppdcc24master"
+        },
+        "hostingPlanName": {
+            "value": "ASPdcc24master"
+        },
+        "siteLocation": {
+            "value": "West US"
+        },
+        "repoUrl": {
+            "value": "https://github.com/v-DavidTang/ToDoApp"
+        },
+        "branch": {
+            "value": "master"
+        },
+        "sqlServerName": {
+            "value": "todoappsql-dcc24master"
+        },
+        "sqlDbName": {
+            "value": "DemosDB"
+        },
+        "slotName": {
+            "value": "Staging"
+        }
+    }
+}
