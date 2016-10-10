@@ -86,7 +86,7 @@ else
 
 	#Resource Group Properties
 	$RG_Name = "ToDoApp$ResourceGroupSuffix"
-	$RG_Location = "West US"
+	$RG_Location = "China East"
 
 	#Set parameters in parameter file and save to temp.json
 	(Get-Content ".\${TemplateParameterFile}" -Raw) `
